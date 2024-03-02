@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "useDefineForClassFields": true,
+    "lib": ["ES2019", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "node", 
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true, 
+    "isolatedModules": false, 
+    "noEmit": false, 
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": false, 
+    "noUnusedLocals": false,
+    "noUnusedParameters": false, 
+    "noFallthroughCasesInSwitch": false 
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
